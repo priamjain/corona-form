@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Play:700&display=swap" rel="stylesheet"> 
+
+    <title>Hello, world!</title>
+
+<style>
+.mySlides {display:none;}
+.mySlides2 {display:none;}
+</style>
+
+  </head>
+  <body class="bg-light">
+  	<div class="text-center py-1 bg-white">
+	<h1 style="font-family: 'Play', sans-serif;" class="text-primary">COVID-19 DETECTOR</h1>
+	</div>
+<div class="container-fluid bg-white">
+	<div class="container-fluid mt-5 border rounded">
+		<div class="row justify-content-center">
+			<div class="col-md-4 text-center mt-4">
+				<button class="btn disabled btn-lg btn-primary">Precautions</button>
+				<img class="mt-2" src="https://www.swopehealth.org/wp-content/uploads/2020/03/Covid19-p2WEB.jpg" style="width:100%">
+			</div>
+			<div class="main col-md-4 px-5 border rounded bg-light">
+				<div class="row justify-content-center mb-4">
+				<button class="btn disabled btn-lg btn-warning">Type Your Details Here:"</button>
+				</div>
+				<form>
+				  <div class="form-group">
+				    <label for="age">Your Age</label>
+				    <input type="text" class="form-control" id="age" placeholder="Enter Your Age">
+				  </div><hr>
+				  <div class="form-group">
+				    <label for="travelhistory">Travel History</label>
+				    <input type="text" class="form-control" id="travelhistory" placeholder="Places you have Travelled in 3 months">
+				    <small id="travelHelp" class="form-text text-muted">for multiple places visits, type like this: Spain,Italy,Australia</small>
+				  </div><hr>
+				  <h5>Select your symptoms: </h5>
+				  <div class="form-check">
+				  <input class="form-check-input" type="checkbox" name="cough" id="cough" value="option2">
+				  <label class="form-check-label" for="cough">
+				    Cough
+				  </label>
+				</div><div class="form-check">
+				  <input class="form-check-input" type="checkbox" name="runnynose" id="runnynose" value="option2">
+				  <label class="form-check-label" for="runnynose">
+				    Runny Nose
+				  </label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" name="sneezing" id="sneezing" value="option2">
+				  <label class="form-check-label" for="sneezing">
+				    Sneezing
+				  </label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" name="sorethroat" id="sorethroat" value="option2">
+				  <label class="form-check-label" for="sorethroat">
+				    Sore Throat
+				  </label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" name="fever" id="fever" value="option2">
+				  <label class="form-check-label" for="fever">
+				    Fever
+				  </label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" name="headache" id="headache" value="option2">
+				  <label class="form-check-label" for="headache">
+				    Headache
+				  </label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" name="fatigue" id="fatigue" value="option2">
+				  <label class="form-check-label" for="fatigue">
+				    Fatigue
+				  </label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" name="chills" id="chills" value="option2">
+				  <label class="form-check-label" for="chills">
+				    Chills
+				  </label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" name="bodyaches" id="bodyaches" value="option2">
+				  <label class="form-check-label" for="bodyaches">
+				    Body Aches
+				  </label>
+				</div>
+				<div class="mt-3">
+				  <button type="submit" class="btn btn-primary">Submit</button>
+				</div>
+				</form>
+			</div>
+			<div class="col-md-4 text-center mt-4">
+				<button class="btn disabled btn-lg btn-primary">Myth Busters</button>
+					<div class="w3-content w3-section" style="max-width:100%">
+					  <img class="mySlides" src="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/52.tmb-1920v.png?sfvrsn=862374e_1" style="width:100%">
+					  <img class="mySlides" src="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/web-mythbusters/mb-cold-snow.tmb-1920v.png?sfvrsn=1e557ba_1" style="width:100%">
+					  <img class="mySlides" src="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/web-mythbusters/mb-hot-bath.tmb-1920v.png?sfvrsn=f1ebbc_1" style="width:100%">
+					  <img class="mySlides" src="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/web-mythbusters/mb-mosquito-bite.tmb-1920v.png?sfvrsn=a1d90f6_1" style="width:100%">
+					  <img class="mySlides" src="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/web-mythbusters/mythbusters-27.tmb-1920v.png?sfvrsn=d17bc6bb_1" style="width:100%">
+					  <img class="mySlides" src="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.tmb-1920v.png?sfvrsn=e5989655_1" style="width:100%">
+					</div>
+					<div class="w3-content w3-section" style="max-width:100%">
+					  <img class="mySlides2" src="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/web-mythbusters/mb-cold-snow.tmb-1920v.png?sfvrsn=1e557ba_1" style="width:100%">
+					  <img class="mySlides2" src="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/web-mythbusters/mb-hot-bath.tmb-1920v.png?sfvrsn=f1ebbc_1" style="width:100%">
+					  <img class="mySlides2" src="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/web-mythbusters/mb-mosquito-bite.tmb-1920v.png?sfvrsn=a1d90f6_1" style="width:100%">
+					  <img class="mySlides2" src="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/web-mythbusters/mythbusters-27.tmb-1920v.png?sfvrsn=d17bc6bb_1" style="width:100%">
+					  <img class="mySlides2" src="https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/mythbusters-31.tmb-1920v.png?sfvrsn=e5989655_1" style="width:100%">
+					</div>
+				</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+
+<script>
+var myIndex = 0;
+carousel2();
+
+function carousel2() {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel2, 4000); // Change image every 2 seconds
+}
+</script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
