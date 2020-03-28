@@ -106,19 +106,19 @@
 				  </label>
 				</div>
 				<div class="form-check">
-				  <input class="form-check-input" type="trouble" name="trouble" id="bodyaches" value="option2">
+				  <input class="form-check-input" type="checkbox" name="trouble" id="trouble" value="option2">
 				  <label class="form-check-label" for="trouble">
 				    Severe Trouble in Breathing
 				  </label>
 				</div>
 				<div class="form-check">
-				  <input class="form-check-input" type="bluelips" name="bluelips" id="bodyaches" value="option2">
+				  <input class="form-check-input" type="checkbox" name="bluelips" id="bluelips" value="option2">
 				  <label class="form-check-label" for="bluelips">
 				    Blue Lips
 				  </label>
 				</div>
 				<div class="form-check">
-				  <input class="form-check-input" type="chestpain" name="chestpain" id="bodyaches" value="option2">
+				  <input class="form-check-input" type="checkbox" name="chestpain" id="chestpain" value="option2">
 				  <label class="form-check-label" for="chestpain">
 				    Chest Pain
 				  </label>
@@ -252,7 +252,7 @@ var flag = false;
 	if(chestpain.checked == true){
 		val = val + 2;
 	}
-	if(val >= 7 or flag = true){
+	if(val >= 7 || flag == true){
 		alert("You need to consult a doctor");
 	} else{
 		alert("You need to observe some more days");
