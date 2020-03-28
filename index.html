@@ -35,7 +35,7 @@
 				<div class="row justify-content-center mb-4">
 				<button class="btn disabled btn-lg btn-warning">Type Your Details Here:"</button>
 				</div>
-				<form>
+				<form method="POST" onsubmit="return myFunction()">
 				  <div class="form-group">
 				    <label for="age">Your Age</label>
 				    <input type="text" class="form-control" id="age" placeholder="Enter Your Age">
@@ -159,6 +159,51 @@ function carousel2() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel2, 4000); // Change image every 2 seconds
 }
+</script>
+
+<script>
+function myFunction() {
+var val = 0;
+console.log(val);
+var cough = document.getElementById("cough");
+var runnynose = document.getElementById("runnynose");
+var sneezing = document.getElementById("sneezing");
+var sorethroat = document.getElementById("sorethroat");
+var fever = document.getElementById("fever");
+var headache = document.getElementById("headache");
+var fatigue = document.getElementById("fatigue");
+var chills = document.getElementById("chills");
+var bodyaches = document.getElementById("bodyaches");
+	if(cough.checked == true){
+		val = val + 1;
+	}
+	if(runnynose.checked == true){
+		val = val + 1;
+	}
+	if(sneezing.checked == true){
+		val = val + 1;
+	}
+	if(sorethroat.checked == true){
+		val = val + 1.5;
+	}
+	if(fever.checked == true){
+		val = val + 2;
+	}
+	if(headache.checked == true){
+		val = val + 1;
+	}
+	if(fatigue.checked == true){
+		val = val + 2;
+	}
+	if(chills.checked == true){
+		val = val + 2;
+	}
+	if(bodyaches.checked == true){
+		val = val + 2;
+	}
+	alert("Your count is: "+val)
+}
+
 </script>
 
     <!-- Optional JavaScript -->
