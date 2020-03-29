@@ -29,4 +29,4 @@ __The weightages of each of the symptoms is as follows:__
  >     0-2 : "Observe.. Maybe related to Stress"\
  >     3-5 : "Rehydrate and observe personal hygiene. Re-evaluate after 2 days"\
  >     6-12: "Seek consultation with Doctor"\
- >     13-24: "Reach out to Doctor immediately"\
+ >     13-24: "Reach out to Doctor immediately"
