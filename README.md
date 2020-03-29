@@ -2,6 +2,7 @@
 Corona form
 
 *To view the WebApp, click on this link: *
+https://bit.ly/39mtUGo
 
 __The results of this app are generated are based on the following key points:__
 >  1. Each symptom written here contains its own weightages.
