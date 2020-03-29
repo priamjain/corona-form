@@ -22,7 +22,7 @@
   </head>
   <body class="bg-light">
   	<div class="text-center py-1 bg-white">
-	<h1 style="font-family: 'Play', sans-serif;" class="text-primary">COVID19 DETECTOR</h1>
+	<h3 style="font-family: 'Play', sans-serif;" class="text-primary">COVID19 DETECTOR</h3>
 	</div>
 <div class="container-fluid bg-white">
 	<div class="container-fluid mt-5 border rounded">
@@ -58,9 +58,9 @@
 				  </label>
 				</div>
 				<div class="form-check">
-				  <input class="form-check-input" type="checkbox" name="sneezing" id="sneezing" value="option2">
-				  <label class="form-check-label" for="sneezing">
-				    Sneezing
+				  <input class="form-check-input" type="checkbox" name="diarrhea" id="diarrhea" value="option2">
+				  <label class="form-check-label" for="diarrhea">
+				    Diarrhea
 				  </label>
 				</div>
 				<div class="form-check">
@@ -70,9 +70,9 @@
 				  </label>
 				</div>
 				<div class="form-check">
-				  <input class="form-check-input" type="checkbox" name="fever" id="fever" value="option2">
-				  <label class="form-check-label" for="fever">
-				    Fever
+				  <input class="form-check-input" type="checkbox" name="bodyaches" id="bodyaches" value="option2">
+				  <label class="form-check-label" for="bodyaches">
+				    Body Aches
 				  </label>
 				</div>
 				<div class="form-check">
@@ -82,45 +82,39 @@
 				  </label>
 				</div>
 				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" name="fever" id="fever" value="option2">
+				  <label class="form-check-label" for="fever">
+				    Fever
+				  </label>
+				</div>
+				<div class="form-check">
+				  <input class="form-check-input" type="checkbox" name="shortness" id="shortness" value="option2">
+				  <label class="form-check-label" for="shortness">
+				    Difficulty in Breathe
+				  </label>
+				</div>
+				<div class="form-check">
 				  <input class="form-check-input" type="checkbox" name="fatigue" id="fatigue" value="option2">
 				  <label class="form-check-label" for="fatigue">
 				    Fatigue
 				  </label>
 				</div>
 				<div class="form-check">
-				  <input class="form-check-input" type="checkbox" name="chills" id="chills" value="option2">
-				  <label class="form-check-label" for="chills">
-				    Chills
+				  <input class="form-check-input" type="checkbox" name="travl" id="travl" value="option2">
+				  <label class="form-check-label" for="travl">
+				    Have you travelled in last 14 days?
 				  </label>
 				</div>
 				<div class="form-check">
-				  <input class="form-check-input" type="checkbox" name="bodyaches" id="bodyaches" value="option2">
-				  <label class="form-check-label" for="bodyaches">
-				    Body Aches
+				  <input class="form-check-input" type="checkbox" name="trvlhis" id="trvlhis" value="option2">
+				  <label class="form-check-label" for="trvlhis">
+				    Any travel history to COVID-19 Infected Areas
 				  </label>
 				</div>
 				<div class="form-check">
-				  <input class="form-check-input" type="checkbox" name="shortness" id="shortness" value="option2">
-				  <label class="form-check-label" for="shortness">
-				    Shortness of Breathe
-				  </label>
-				</div>
-				<div class="form-check">
-				  <input class="form-check-input" type="checkbox" name="trouble" id="trouble" value="option2">
-				  <label class="form-check-label" for="trouble">
-				    Severe Trouble in Breathing
-				  </label>
-				</div>
-				<div class="form-check">
-				  <input class="form-check-input" type="checkbox" name="bluelips" id="bluelips" value="option2">
-				  <label class="form-check-label" for="bluelips">
-				    Blue Lips
-				  </label>
-				</div>
-				<div class="form-check">
-				  <input class="form-check-input" type="checkbox" name="chestpain" id="chestpain" value="option2">
-				  <label class="form-check-label" for="chestpain">
-				    Chest Pain
+				  <input class="form-check-input" type="checkbox" name="contact" id="contact" value="option2">
+				  <label class="form-check-label" for="contact">
+				    HAve you been in contact with any covid19 positive patient?
 				  </label>
 				</div>
 				<div class="mt-3">
@@ -193,74 +187,7 @@ function carousel2() {
 }
 </script>
 
-<script>
-function myFunction() {
-var val = 0;
-console.log(val);
-var cough = document.getElementById("cough");
-var runnynose = document.getElementById("runnynose");
-var sneezing = document.getElementById("sneezing");
-var sorethroat = document.getElementById("sorethroat");
-var fever = document.getElementById("fever");
-var headache = document.getElementById("headache");
-var fatigue = document.getElementById("fatigue");
-var chills = document.getElementById("chills");
-var bodyaches = document.getElementById("bodyaches");
-var shortness = document.getElementById("shortness");
-var trouble = document.getElementById("trouble");
-var bluelips = document.getElementById("bluelips");
-var chestpain = document.getElementById("chestpain");
-var flag = false;
-	if(cough.checked == true){
-		val = val + 1;
-	}
-	if(runnynose.checked == true){
-		val = val + 1;
-	}
-	if(sneezing.checked == true){
-		val = val + 1;
-	}
-	if(sorethroat.checked == true){
-		val = val + 1.25;
-	}
-	if(fever.checked == true){
-		val = val + 1.5;
-	}
-	if(headache.checked == true){
-		val = val + 1;
-	}
-	if(fatigue.checked == true){
-		val = val + 1.25;
-	}
-	if(chills.checked == true){
-		val = val + 1.5;
-	}
-	if(bodyaches.checked == true){
-		val = val + 1;
-	}
-	if(shortness.checked == true){
-		val = val + 2;
-	}
-	if(trouble.checked == true){
-		flag = true;
-		val = val + 3;
-	}
-	if(bluelips.checked == true){
-		flag = true;
-		val = val + 3;
-	}
-	if(chestpain.checked == true){
-		val = val + 2;
-	}
-	if(val >= 7 || flag == true){
-		alert("You need to consult a doctor");
-	} else{
-		alert("You need to observe some more days");
-	}
-
-}
-
-</script>
+	<script src="script.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
