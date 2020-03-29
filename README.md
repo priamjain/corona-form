@@ -10,7 +10,7 @@ The results of this app are generated are based on the following key points.
   4. User is shown recommendations based on the value of that variable.
 
 The weightages of each of the symptoms is as follows:
-  cough -> 1
+  cough -> 1\
   runny nose -> 1
   diarrhea -> 1
   sore throat -> 1
